@@ -56,7 +56,7 @@
 ### 🤖 [LLM-Powered RAG System using LangChain](https://github.com/shrishti021/RAG-based-project)
 > **Python · LangChain · RAG**
 
-- Built an end-to-end RAG pipeline using LangChain to answer questions from PDF documents using locally running open-source LLMs via Ollama - with zero dependency on external APIs.
+- Built an end-to-end RAG pipeline using LangChain to answer questions from PDF documents using open-source LLMs, with zero dependency on external APIs.
 - Implemented document ingestion, embedding generation, and in-memory vector search to retrieve contextually relevant document chunks and pass them as grounded context to the LLM. 
 - Integrated response streaming and batch inference using LangChain chains, improving perceived response speed and enabling parallel multi-question answering. 
 
