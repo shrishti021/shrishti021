@@ -53,13 +53,12 @@
 
 ## 🔥 Featured Projects
 
-### 🤖 [Automated Email Responder using LLM, RAG & CAG](https://github.com/shrishti021)
-> **n8n · Python · Gmail API · RAG · CAG**
+### 🤖 [LLM-Powered RAG System using LangChain](https://github.com/shrishti021/RAG-based-project)
+> **Python · LangChain · RAG**
 
-- Built an end-to-end **n8n automation workflow** that triggers on incoming emails and uses an LLM to draft and send context-aware replies via Gmail API.
-- Integrated **Retrieval-Augmented Generation (RAG)** to fetch relevant knowledge base documents at runtime, grounding LLM responses in accurate, up-to-date information.
-- Implemented **Cache-Augmented Generation (CAG)** to reduce redundant LLM calls by caching frequent query responses, improving latency and cost efficiency.
-- Designed modular n8n nodes for document ingestion, vector search, prompt construction, and email dispatch.
+- Built an end-to-end RAG pipeline using LangChain to answer questions from PDF documents using locally running open-source LLMs via Ollama - with zero dependency on external APIs.
+- Implemented document ingestion, embedding generation, and in-memory vector search to retrieve contextually relevant document chunks and pass them as grounded context to the LLM. 
+- Integrated response streaming and batch inference using LangChain chains, improving perceived response speed and enabling parallel multi-question answering. 
 
 ---
 
